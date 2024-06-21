@@ -1,0 +1,49 @@
+.home {
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    filter: brightness(0.8);
+    z-index: 0;
+}
+
+.home .wrapper {
+    display: inline-block;
+    text-align: center;
+}
+
+.home .title {
+    margin: 0;
+    margin-bottom: 40px;
+    letter-spacing: 0.25em;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration-thickness: initial;
+}
+
+.home .button {
+    padding: 10px 20px;
+    border: 0.8px solid white;
+
+    text-decoration: none;
+    letter-spacing: 0.1em;
+
+    transition: background-color .4s ease-in-out, color .4s ease-in-out;
+}
+
+.home .button:hover {
+    background-color: white;
+    color: black !important;
+}
+
+@media (max-width: 680px) {
+    .home .title {
+        font-size: 25px;
+    }
+}

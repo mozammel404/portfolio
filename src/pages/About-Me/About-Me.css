@@ -1,0 +1,50 @@
+.about-me {
+    margin-bottom: 50px;
+}
+
+.about-me .thumbnail {
+    background: url(../../assets/about-me.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    min-height: 300px;
+}
+
+.about-me .body {
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.about-me .body p {
+    margin: 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+.about-me .body a {
+    color: skyblue;
+}
+
+.about-me .body a::selection {
+    color: blueviolet !important;
+}
+
+.about-me .body h1 {
+    margin: 50px 0;
+    font-size: 30px;
+
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 985px) {
+    .about-me .body p {
+        text-align: left;
+    }
+
+    .about-me .body {
+        margin: 0 40px;
+    }
+}
