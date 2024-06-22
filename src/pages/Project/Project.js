@@ -19,7 +19,11 @@ const Project = () => {
 
     return (
         <div className="project-page">
-            <p>{projects[name].name}</p>
+            <div className="wrapper">
+                <p className="name">{projects[name].name}</p>
+                <p className="details">{projects[name].detail}</p>
+                <p>Installation guide and resources are available <a href={projects[name].external_url}>here</a></p>
+            </div>
         </div>
     );
 }

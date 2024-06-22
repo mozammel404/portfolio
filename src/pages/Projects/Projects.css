@@ -37,6 +37,10 @@
     gap: 50px 30px;
 }
 
+.project{
+    cursor: pointer;
+}
+
 .project img {
     height: 250px;
     width: 100%;

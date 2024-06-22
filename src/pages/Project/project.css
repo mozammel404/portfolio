@@ -14,5 +14,27 @@
 }
 
 .project-page {
+    height: 100vh;
+    max-width: 720px;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     text-align: center;
+}
+
+.project-page .name {
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.project-page .details {
+    margin-bottom: 50px;
+}
+
+.project-page a {
+    color: skyblue;
 }
