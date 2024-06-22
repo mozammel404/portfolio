@@ -21,12 +21,6 @@
     letter-spacing: 1px;
 }
 
-.mob-warning {
-    text-align: center;
-
-    margin: 20px 0;
-}
-
 .projects .projects-wrapper {
     margin: 0 auto;
     margin-top: 50px;
@@ -53,4 +47,13 @@
 
 .project .details {
     text-align: left;
+}
+
+@media (max-width: 426px) {
+    .projects .projects-wrapper{
+        grid-template-columns: auto;
+
+        margin-left: 15px;
+        margin-right: 15px;
+    }
 }
